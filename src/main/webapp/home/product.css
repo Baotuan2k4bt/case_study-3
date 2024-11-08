@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Header */
+.header_top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.header_top .contact_nav a, .header_top .user_option_box a {
+    color: #555;
+    margin-right: 15px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.header_top .contact_nav a:hover, .header_top .user_option_box a:hover {
+    color: #007bff;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Product Card */
+.product_section .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.product_section .card:hover {
+    transform: translateY(-5px);
+}
+
+.product_section .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product_section .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.product_section .btn-block {
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer_section p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Info Section */
+.info_section {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
+
+.info_section .info_contact, .info_section .info_info, .info_section .info_links, .info_section .info_form {
+    margin-bottom: 20px;
+}
+
+.info_section h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.info_section p, .info_section a {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.info_section .social_box a {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.info_section .social_box a:hover {
+    color: #0056b3;
+}
+
+.info_form input[type="email"] {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+.info_form button {
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.info_form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Navbar background color */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+/* Navbar text color */
+.navbar .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for nav items */
+.navbar .nav-link:hover {
+    color: #2b7cd3; /* Light blue color on hover */
+}
+
+/* Active nav item styling */
+.navbar .nav-item.active .nav-link {
+    color: #007bff; /* Matches the hover color for consistency */
+}
+
+.footer_section {
+    background-color: #ffffff; /* Dark gray for footer */
+    color: #2e6dcd; /* White text color */
+    padding: 20px 0;
+}
+
+/* Footer Links */
+.footer_section a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer_section a:hover {
+    color: #edc574; /* Yellow hover color */
+}
+
+/* Footer Social Icons */
+.social_box a {
+    color: #ffffff;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social_box a:hover {
+    color: #1760ae; /* Blue hover color for social icons */
+}
